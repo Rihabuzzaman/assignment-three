@@ -146,15 +146,14 @@
     <main>
       <section class="bg-slate-200 py-12">
         <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
-            <div class="space-y-4">
-                <img src="assets/article3.png" alt="" class="w-full h-full object-cover">
-            </div>
+           
             <div>
+              <button class="bg-white rounded-xl text-black">About Us</button>
                 <h2 class="text-3xl font-bold text-gray-900">We design thoughtful, liveable spaces</h2>
                 <p class="text-gray-600 mt-4">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                 </p>
-                <div class="grid grid-cols-2 gap-4 mt-8">
+                <div class="grid grid-rows-2 gap-4 mt-8 ">
                     <div class="flex items-center">
                         
                         <div class="mr-4 bg-white">
@@ -167,8 +166,8 @@
                     </div>
                     <div class="flex items-center">
                        
-                        <div class="ml-4">
-                          <div class="bg-wip-4">
+                        <div class="ml-3 bg-white">
+                          <div class="bg-wip-3">
                             <img src="assets/residential.png" alt="Residential">
                         </div>
                             <h3 class="text-lg font-bold text-gray-900">Residential</h3>
@@ -177,6 +176,9 @@
                     </div>
                 </div>
             </div>
+            <div class="space-y-4">
+              <img src="assets/article3.png" alt="" class="w-full h-full object-cover">
+          </div>
         </div>
     </section>
       <!-- our work section -->
@@ -225,6 +227,126 @@
       </div>
   </div>
       </section>
+      <!-- our latest section -->
+      <section class=" bg-white py-12">
+        <div class="container mx-auto text-center">
+          <!-- Button -->
+          <button class="bg-green-200 text-black font-bold py-2 px-4 rounded-xl mb-4">Explore our Latest Works</button>
+          <!-- title -->
+          <h2 class="text-3xl font-bold text-gray-900">Our Latest Portfolio</h2>
+          <p class="text-gray-500 mt-4 mb-8">
+            The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+            featuring weathered wood, sleek metal accents.
+          </p>
+          <!-- Portfolio grid- section -->
+          <div class="grid md:grid-cols-3 gap-8 mt-8">
+            <!-- grid 1 -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+              <img src="assets/img1.png" alt="Commercial Project" class="w-full h-48 object-cover rounded-lg">
+              <h3 class="text-lg font-bold text-gray-900 mt-4">Commercial</h3>
+              <p class="text-gray-600 mt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+              <button class="btn bg-white text-black font-bold mt-4 px-4 py-2 rounded-lg">View Details</button>
+            </div>
+            <!-- grid 2 -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+              <img src="assets/img2.png" alt="Commercial Project" class="w-full h-48 object-cover rounded-lg">
+            </div><br>
+            <!-- grid 3 -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+              <img src="assets/img3.png" alt="Commercial Project" class="w-full h-48 object-cover rounded-lg">
+            </div>
+            <!-- grid 4 -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+              <img src="assets/img4.png" alt="Commercial Project" class="w-full h-48 object-cover rounded-lg">
+              <h3 class="text-lg font-bold text-gray-900 mt-4">Commercial</h3>
+              <p class="text-gray-600 mt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+              <button class="btn bg-white text-black font-bold mt-4 px-4 py-2 rounded-lg">View Details</button>
+            </div>
+            <!-- grid 5 -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+              <img src="assets/img5.png" alt="Commercial Project" class="w-full h-48 object-cover rounded-lg">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+   <div class="bg-[url('/assets/bg.jpg')]">
+     <!-- discuss section -->
+     <section class="py-12">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-8">
+            <button class="bg-green-100 rounded-full">Let’s Connect</button>
+              <h2 class="text-3xl font-bold text-gray-900">Let's Discuss Next Project</h2>
+              <p class="text-gray-600 mt-2">
+                  The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+              </p>
+          </div>
+          <form class="max-w-2xl mx-auto  p-8 rounded-lg shadow-lg">
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                  <div>
+                      <label for="firstName" class="block text-gray-700 rounded-xl"></label>
+                      <input type="text" id="firstName" placeholder="First Name" class="input input-bordered w-full">
+                  </div>
+                  <div>
+                      <label for="lastName" class="block text-gray-700"></label>
+                      <input type="text" id="lastName" placeholder="Last Name" class="input input-bordered w-full">
+                  </div>
+              </div>
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                  <div>
+                      <label for="phone" class="block text-gray-700"></label>
+                      <input type="text" id="phone" placeholder="Phone Number" class="input input-bordered w-full">
+                  </div>
+                  <div>
+                      <label for="email" class="block text-gray-700 rounded-lg"></label>
+                      <input type="email" id="email" placeholder="Email Address" class="input input-bordered w-full">
+                  </div>
+              </div>
+              <div class="mb-4">
+                  <label for="message" class="block text-gray-700"></label>
+                  <textarea id="message" rows="4" placeholder="Your message" class="textarea textarea-bordered w-full"></textarea>
+              </div>
+              <div class="text-center">
+                  <button type="submit" class="btn bg-green-500 text-white px-6 py-2 rounded-xl">Send Mail</button>
+              </div>
+          </form>
+      </div>
+  </section>
+   </div>
     </main>
+    <!-- footer section -->
+    <footer class="bg-black text-white py-10">
+      <div class="container mx-auto text-center">
+          <!-- Logo -->
+          <div class="flex justify-center mb-4">
+              <div class="flex items-center">
+                  <div class="bg-green-500 p-2 rounded-full">
+                      <span class="text-2xl font-bold">R</span>
+                  </div>
+                  <span class="ml-2 text-xl font-bold ">Rinterio</span>
+              </div>
+          </div>
+
+          <!-- Footer Text -->
+          <p class="text-gray-500 mb-6">
+              The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+          </p>
+
+          <!-- Footer Links -->
+          <div class="flex justify-center gap-8 space-x-4 mb-6">
+              <a href="#" class="text-gray-400 hover:text-white">Home</a>
+              <a href="#" class="text-gray-400 hover:text-white">Services</a>
+              <a href="#" class="text-gray-400 hover:text-white">Portfolio</a>
+              <a href="#" class="text-gray-400 hover:text-white">Blogs</a>
+              <a href="#" class="text-gray-400 hover:text-white">Contact Us</a>
+          </div>
+
+          <!-- Button -->
+          <div class="flex justify-center">
+              <button class="btn bg-green-400 text-black font-bold rounded-full px-6 py-2">Book Consult</button>
+          </div>
+      </div>
+      <hr class="mt-10 bg-slate-500">
+  </footer>
   </body>
 </html>
